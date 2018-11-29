@@ -12,6 +12,8 @@ app.use((req,res,next) => {
   next();
 });
 
+app.use('/', express.static(__dirname + '/public'));
+
 
 const routePets = require('./routes/pets')(app);
 
