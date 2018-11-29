@@ -7,5 +7,6 @@ export const environment = {
     projectId: "facepets-f8024",
     storageBucket: "facepets-f8024.appspot.com",
     messagingSenderId: "885279913754"
-  }
+  },
+  apiurl: "http://40.121.68.126"
 };
